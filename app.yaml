@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/Azureacademysep25/nginxhelm.git
     targetRevision: HEAD
-    path: guestbook
+    path: nginxapp
   destination:
     server: https://kubernetes.default.svc
     namespace: nginx
